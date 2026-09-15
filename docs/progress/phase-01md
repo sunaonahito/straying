@@ -1,0 +1,207 @@
+# RNF Development Report
+
+# Phase 1 - Project Foundation
+
+## Date
+
+2026-07
+
+---
+
+# Goal
+
+Research Novel Frameworkの設計方針を決定し、
+長期開発できる土台を構築する。
+
+---
+
+# Completed
+
+## Project Structure
+
+### Purpose
+
+長期運用しやすいディレクトリ構成を設計する。
+
+### Result
+
+以下の構成を決定。
+
+```
+docs/
+scripts/
+data/
+apps-script/
+```
+
+今後モジュール追加が容易になった。
+
+---
+
+## Architecture Design
+
+### Purpose
+
+RNF全体の責務を整理する。
+
+### Result
+
+Core
+
+Game
+
+Research
+
+Transport
+
+Adapter
+
+という責務分離を決定した。
+
+---
+
+## Scenario Format
+
+### Purpose
+
+シナリオ記述ルールを統一する。
+
+### Result
+
+ID命名規則
+
+Scene
+
+Choice
+
+Input
+
+Ending
+
+などの設計方針を決定した。
+
+---
+
+## Design Principles
+
+### Purpose
+
+RNF全体の設計思想を明文化する。
+
+### Result
+
+以下を基本原則とした。
+
+- Single Responsibility
+- Loose Coupling
+- Event Driven
+- Framework First
+
+---
+
+## Roadmap
+
+### Purpose
+
+開発順序を整理する。
+
+### Result
+
+Core
+
+↓
+
+Game
+
+↓
+
+Research
+
+↓
+
+Transport
+
+↓
+
+Persistence
+
+↓
+
+Adapter
+
+というロードマップを作成した。
+
+---
+
+## Git Repository
+
+### Purpose
+
+ソースコードを履歴管理する。
+
+### Result
+
+GitHub Desktopを導入し、
+RNF開発履歴の管理を開始した。
+
+---
+
+# Current Architecture
+
+```
+Architecture
+
+↓
+
+Module Design
+
+↓
+
+Implementation
+```
+
+---
+
+# Current Progress
+
+```
+██░░░░░░░░ 20%
+```
+
+---
+
+# Design Principles Learned
+
+## Documentation First
+
+実装より先に設計を書く。
+
+設計書をRNFの仕様書として扱う。
+
+---
+
+## Long-term Development
+
+短期間で完成させるのではなく、
+長期間育てられる構造を優先する。
+
+---
+
+# Next Phase
+
+## Phase 2
+
+Core Foundation
+
+### Goal
+
+RNF全体で利用する
+共通基盤を構築する。
+
+---
+
+# Notes
+
+RNF開発開始。
+
+まず設計を固める方針を採用した。
